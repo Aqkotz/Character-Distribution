@@ -58,13 +58,8 @@ for i in alphabet:
 """
 strlen=len(strlist)
 final=[""]
-while strlen > -1:
-    letnum=0
-    while letnum < 26:
-        print (letnum)
-        if letnum != 26:
-            if alphabet[letnum] in strlist and len(strlist) != 0:
-                final.append(alphabet[letnum])
-                strlist.remove(alphabet[letnum])
-        letnum=letnum+1
-    strlen=len(strlist)
+for a in strlist:
+    for b in alphabet:
+        if b == a:
+            final.append(a)
+            strlist.remove(a)
