@@ -40,7 +40,7 @@ alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q",
 strin = input("Please enter a string of text (the bigger the better): ")
 strin = strin.lower()
 strlist=list(strin)
-for j in range(100):
+for j in range(10):
     for x in strlist:
         if x not in alphabet:
             strlist.remove(x)
@@ -58,9 +58,10 @@ for i in alphabet:
 """
 timcookbutt=len(strlist)
 final=[""]
-pouple=0
-while timcookbutt >=0:
+while timcookbutt > -1:
+    pouple=0
     while pouple <= len(alphabet):
+        print (alphabet)
         if alphabet[pouple] in strlist:
             final.append(alphabet[pouple])
             strlist.remove(alphabet[pouple])
