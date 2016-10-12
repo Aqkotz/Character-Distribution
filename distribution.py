@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Andy
-Credit: Milo the Almighty Savior of ALL Existence
+Credit: Milo the Almighty Savior of All Existence
 
 Assignment:
 
