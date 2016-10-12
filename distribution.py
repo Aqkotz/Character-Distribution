@@ -58,8 +58,8 @@ for i in alphabet:
 """
 timcookbutt=len(strlist)
 final=[""]
+pouple=0
 while timcookbutt >=0:
-    pouple=0
     if alphabet[pouple] in strlist:
         while pouple <= len(alphabet):
             final.append(alphabet[pouple])
