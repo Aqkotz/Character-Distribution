@@ -60,8 +60,8 @@ timcookbutt=len(strlist)
 final=[""]
 while timcookbutt >=0:
     pouple=0
-    while pouple <= len(alphabet):
-        if alphabet[pouple] in strlist:
+    if alphabet[pouple] in strlist:
+        while pouple <= len(alphabet):
             final.append(alphabet[pouple])
             strlist.remove(alphabet[pouple])
             pouple=pouple+1
