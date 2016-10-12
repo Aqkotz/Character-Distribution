@@ -62,7 +62,7 @@ while timcookbutt > -1:
     pouple=0
     while pouple <= len(alphabet):
         print (pouple)
-        if alphabet[pouple] in strlist:
+        if alphabet[pouple] in strlist and len(strlist) != 0:
             final.append(alphabet[pouple])
             strlist.remove(alphabet[pouple])
         pouple=pouple+1
