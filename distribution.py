@@ -56,15 +56,15 @@ for i in alphabet:
             strlist.remove(i)
     listname.append(numval)
 """
-timcookbutt=len(strlist)
+strlen=len(strlist)
 final=[""]
-while timcookbutt > -1:
-    pouple=0
-    while pouple <= len(alphabet):
-        print (pouple)
-        if pouple != 26:
-            if alphabet[pouple] in strlist and len(strlist) != 0:
-                final.append(alphabet[pouple])
-                strlist.remove(alphabet[pouple])
-        pouple=pouple+1
-    timcookbutt=len(strlist)
+while strlen > -1:
+    letnum=0
+    while letnum < 26:
+        print (letnum)
+        if letnum != 26:
+            if alphabet[letnum] in strlist and len(strlist) != 0:
+                final.append(alphabet[letnum])
+                strlist.remove(alphabet[letnum])
+        letnum=letnum+1
+    strlen=len(strlist)
