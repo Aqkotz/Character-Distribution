@@ -57,8 +57,10 @@ for i in alphabet:
     listname.append(numval)
 """
 timcookbutt=len(strlist)
+final=[""]
 while timcookbutt >=0:
     
+    timcookbutt=len(strlist)
 
 listname.remove(" ")
 print (listname)
