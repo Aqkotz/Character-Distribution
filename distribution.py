@@ -59,7 +59,9 @@ for i in alphabet:
 timcookbutt=len(strlist)
 final=[""]
 while timcookbutt >=0:
-    
+    pouple=0
+    if alphabet[pouple] in strlist:
+        
     timcookbutt=len(strlist)
 
 listname.remove(" ")
