@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Andy
-Credit: <list sources used, if any>
+Credit: Milo the Almighty Savior of ALL Existence
 
 Assignment:
 
@@ -39,4 +39,20 @@ Notice about this example:
 alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 strin = input("Please enter a string of text (the bigger the better): ")
 strin = strin.lower()
-print (strin)
+strlist=list(strin)
+for j in range(100):
+    for x in strlist:
+        if x not in alphabet:
+            strlist.remove(x)
+            
+print (strlist)
+for i in alphabet:
+    listname = [" "]
+    numval = ""
+    for p in strlist:
+        if i in strlist:
+            numval = numval + i
+            strlist.remove(i)
+    listname.append(numval)
+listname.remove(" ")
+print (listname)
