@@ -46,6 +46,7 @@ for j in range(100):
             strlist.remove(x)
             
 print (strlist)
+"""
 for i in alphabet:
     listname = [" "]
     numval = ""
@@ -54,5 +55,6 @@ for i in alphabet:
             numval = numval + i
             strlist.remove(i)
     listname.append(numval)
+"""
 listname.remove(" ")
 print (listname)
