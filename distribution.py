@@ -65,7 +65,7 @@ print (newfinal)
 
 gofor = 0
 gofor1 = 1
-while gofor < len(newfinal):
+while gofor < (len(newfinal)-1):
     x = ""
     print (gofor)
     print (newfinal[gofor])
