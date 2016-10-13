@@ -59,11 +59,12 @@ for i in alphabet:
 strlen=len(strlist)
 final=[]
 for a in alphabet:
+    letterstrin = ""
     for p in range(10):
-        letterstrin = ""
         if a in strlist:
             letterstrin = letterstrin + a
-    final.append(letterstrin)
+    if a in strlist:
+        final.append(letterstrin)
 print (final)
             
             
