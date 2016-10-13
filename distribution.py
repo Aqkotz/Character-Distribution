@@ -63,8 +63,8 @@ for a in final:
             newfinal.append(a)
 print (newfinal)
 
-gofor = 1
-gofor1 = 2
+gofor = 0
+gofor1 = 0
 while gofor <= len(newfinal):
     x = ""
     if len(newfinal[gofor]) < len(newfinal[gofor1]):
