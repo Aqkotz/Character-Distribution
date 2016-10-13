@@ -64,7 +64,8 @@ for a in alphabet:
         if a in strlist:
             letterstrin = letterstrin + a
             strlist.remove(a)
-    final.append(letterstrin)
+    if a in strlist:
+        final.append(letterstrin)
 print (final)
             
             
