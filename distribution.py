@@ -61,17 +61,18 @@ for a in final:
     for b in alphabet:
         if b in a:
             newfinal.append(a)
-            
-gofor = len(newfinal)
-gofor1 = gofor-1
-while gofor >= 0:
+print (newfinal)
+
+gofor = 0
+gofor1 = 1
+while gofor <= len(newfinal):
     x = ""
-    if len(newfinal[gofor]) > len(newfinal[gofor1]):
+    if len(newfinal[gofor]) < len(newfinal[gofor1]):
         x = newfinal[gofor]
         newfinal[gofor] = newfinal[gofor1]
         newfinal[gofor1] = x
-    gofor = gofor - 1
-    gofor1 = gofor1 - 1
+    gofor = gofor + 1
+    gofor1 = gofor1 + 1
 
 print (newfinal)
 
