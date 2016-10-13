@@ -57,14 +57,15 @@ for i in alphabet:
     listname.append(numval)
 """
 strlen=len(strlist)
-final=[""]
-for a in strlist:
-    for b in alphabet:
-        if b == a:
-            final.append(a)
-            strlist.remove(a)
-    
-            
+final=[]
+for p in range(100):
+    for a in strlist:
+        strperlet = ""
+        for b in alphabet:
+            if b == a:
+                strperlet = strperlet + a
+        final.append(strperlet)
+print (final)
             
             
             
