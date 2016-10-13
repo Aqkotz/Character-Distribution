@@ -45,8 +45,6 @@ for j in range(10):
         if x not in alphabet:
             strlist.remove(x)
             
-print (strlist)
-
 strlen=len(strlist)
 final=[]
 for a in alphabet:
@@ -56,13 +54,14 @@ for a in alphabet:
             letterstrin = letterstrin + a
             strlist.remove(a)
     final.append(letterstrin)
+    
+
 newfinal = []
 for a in final:
     for b in alphabet:
         if b in a:
             newfinal.append(a)
-print (newfinal)
-
+            
 for b in range(100):
     gofor = 0
     gofor1 = 1
@@ -74,6 +73,7 @@ for b in range(100):
             newfinal[gofor1] = x
         gofor = gofor + 1
         gofor1 = gofor1 + 1
+
 
 print (newfinal)
 
