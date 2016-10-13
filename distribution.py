@@ -65,18 +65,17 @@ print (newfinal)
 
 gofor = 0
 gofor1 = 1
-for b in range(100):
-    while gofor < (len(newfinal)-1):
-        x = ""
-        print (gofor)
-        print (newfinal[gofor])
-        print (newfinal[gofor1])
-        if len(newfinal[gofor]) < len(newfinal[gofor1]):
-            x = newfinal[gofor]
-            newfinal[gofor] = newfinal[gofor1]
-            newfinal[gofor1] = x
-        gofor = gofor + 1
-        gofor1 = gofor1 + 1
+while gofor < (len(newfinal)-1):
+    x = ""
+    print (gofor)
+    print (newfinal[gofor])
+    print (newfinal[gofor1])
+    if len(newfinal[gofor]) < len(newfinal[gofor1]):
+        x = newfinal[gofor]
+        newfinal[gofor] = newfinal[gofor1]
+        newfinal[gofor1] = x
+    gofor = gofor + 1
+    gofor1 = gofor1 + 1
 
 print (newfinal)
 
