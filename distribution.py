@@ -75,6 +75,6 @@ for b in range(100):
         gofor1 = gofor1 + 1
 
 for i in newfinal:
-    print str(newfinal[i])
+    print (str(newfinal[i]))
 
 
