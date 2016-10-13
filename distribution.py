@@ -64,9 +64,12 @@ for a in final:
 print (newfinal)
 
 gofor = 0
-gofor1 = 0
+gofor1 = 1
 while gofor < len(newfinal):
     x = ""
+    print (gofor)
+    print (newfinal[gofor])
+    print (newfinal[gofor1])
     if len(newfinal[gofor]) < len(newfinal[gofor1]):
         x = newfinal[gofor]
         newfinal[gofor] = newfinal[gofor1]
