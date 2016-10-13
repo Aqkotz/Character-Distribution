@@ -65,7 +65,7 @@ print (newfinal)
 
 gofor = 0
 gofor1 = 1
-for b in range(10)
+for b in range(100):
     while gofor < (len(newfinal)-1):
         x = ""
         print (gofor)
