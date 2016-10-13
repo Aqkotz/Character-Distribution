@@ -65,7 +65,14 @@ for a in alphabet:
             letterstrin = letterstrin + a
             strlist.remove(a)
     final.append(letterstrin)
-print (final)
+newfinal = []
+for a in final:
+    for b in alphabet:
+        if b in a:
+            newfinal.append(a)
+            
+            
+print (newfinal)
             
             
             
