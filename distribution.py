@@ -58,13 +58,12 @@ for i in alphabet:
 """
 strlen=len(strlist)
 final=[]
-for p in range(100):
-    for a in strlist:
+for a in alphabet:
+    for p in range(10):
         strperlet = ""
-        for b in alphabet:
-            if b == a:
-                strperlet = strperlet + a
-        final.append(strperlet)
+        if a in strlist:
+            strperlet = strperlet + a
+    final.append(strperlet)
 print (final)
             
             
