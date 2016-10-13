@@ -60,9 +60,8 @@ strlen=len(strlist)
 final=[]
 for a in alphabet:
     letterstrin = ""
-    for p in range(1):
-        if a in strlist:
-            letterstrin = letterstrin + a
+    if a in strlist:
+        letterstrin = letterstrin + a
     if a in strlist:
         final.append(letterstrin)
 print (final)
