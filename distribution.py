@@ -65,7 +65,7 @@ print (newfinal)
 
 gofor = 0
 gofor1 = 0
-while gofor <= len(newfinal):
+while gofor < len(newfinal):
     x = ""
     if len(newfinal[gofor]) < len(newfinal[gofor1]):
         x = newfinal[gofor]
@@ -77,4 +77,3 @@ while gofor <= len(newfinal):
 print (newfinal)
 
 
-            
