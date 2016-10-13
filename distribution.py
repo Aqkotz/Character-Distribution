@@ -60,10 +60,11 @@ strlen=len(strlist)
 final=[]
 for a in alphabet:
     letterstrin = ""
-    if a in strlist:
-        letterstrin = letterstrin + a
-    if a in strlist:
-        final.append(letterstrin)
+    for j in range(10):
+        if a in strlist:
+            letterstrin = letterstrin + a
+            strlist.remove(a)
+    final.append(letterstrin)
 print (final)
             
             
