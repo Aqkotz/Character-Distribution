@@ -46,16 +46,7 @@ for j in range(10):
             strlist.remove(x)
             
 print (strlist)
-"""
-for i in alphabet:
-    listname = [" "]
-    numval = ""
-    for p in strlist:
-        if i in strlist:
-            numval = numval + i
-            strlist.remove(i)
-    listname.append(numval)
-"""
+
 strlen=len(strlist)
 final=[]
 for a in alphabet:
@@ -71,8 +62,18 @@ for a in final:
         if b in a:
             newfinal.append(a)
             
-            
+gofor = len(newfinal)
+gofor1 = gofor-1
+while gofor >= 0:
+    x = ""
+    if len(newfinal[gofor]) > len(newfinal[gofor1]):
+        x = newfinal[gofor]
+        newfinal[gofor] = newfinal[gofor1]
+        newfinal[gofor1] = x
+    gofor = gofor - 1
+    gofor1 = gofor1 - 1
+
 print (newfinal)
-            
-            
+
+
             
